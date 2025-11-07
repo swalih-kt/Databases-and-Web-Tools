@@ -1,0 +1,138 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+/* Ensures body stretches full height */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Consistent content box for all pages */
+.wrapper-main {
+  width: 100%;
+  max-width: 1200px;
+  padding: 2rem 1.5rem;
+  margin: 2rem auto;
+  background-color: #ffffff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+/* Header */
+header {
+  background-color: #Ff6f6a;
+  color: white;
+  padding: 1rem 0;
+}
+
+/* Logo */
+.logo-img {
+  max-height: 60px;
+  height: auto;
+}
+
+/* Navigation */
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav li {
+  margin: 0.5rem;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #0b3e59;
+}
+
+/* About Section */
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Abstract Image */
+#graphical-abstract {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+
+/* Footer */
+footer {
+  background-color: #Ff6f6a;
+  padding: 0.75rem 1rem;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+/* Footer Links */
+.footerLink {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footerLink:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  header .container-fluid {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo-img {
+    max-height: 40px;
+    max-width: 100px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  .wrapper-main {
+    padding: 1.5rem 1rem;
+    margin: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #graphical-abstract {
+    max-height: 300px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+}

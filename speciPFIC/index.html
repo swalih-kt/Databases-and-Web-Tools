@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>specipfic</title>
+
+  <!-- Bootstrap and Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.bundle.v1.css" />
+</head>
+<body>
+  <!-- Wrapper -->
+  <div class="wrapper-main" style="background-color: #f0f0f0; padding: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+
+    <!-- Header -->
+    <header class="py-3">
+      <div class="container-fluid d-flex justify-content-between align-items-center flex-wrap">
+        
+        <!-- HLCS Logo -->
+        <img src="assets/images/speciPFIC_logo.png" alt="HLCS Logo" id="choleoVarLogo" class="img-fluid logo-img" style="max-height: 100px;" />
+
+        <!-- Navigation -->
+        <nav class="flex-grow-1 text-center my-2">
+          <ul class="nav justify-content-center flex-wrap">
+            <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="search.html">Search</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="help.html">Help</a></li>
+          </ul>
+        </nav>
+
+        <!-- IGIB Logo -->
+        <a href="https://www.igib.res.in/" target="_blank">
+          <img src="assets/images/IGIB_logo.png" alt="IGIB Logo" id="igibLogo" class="img-fluid logo-img" style="max-height: 80px;" />
+        </a>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+      <div class="row">
+        
+        <!-- Left Column: About + Graphical Abstract -->
+        <div class="col-md-8">
+          <!-- About Section -->
+          <div style="background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+            <section class="mb-5">
+              <h2 class="mb-3" style="font-size: 20px; font-weight: bold;">About</h2>
+              <p>
+                speciPFIC is a meticulously curated database aimed at providing a comprehensive resource 
+                for clinicians and geneticists focusing on Progressive Familial Intrahepatic Cholestasis 
+                (PFIC- I, II, and III). Leveraging extensive literature surveys, we assembled a panel of 
+                three genes implicated in PFIC, namely ATP8B1, ABCB11, and ABCB4. Through rigorous curation 
+                from ClinVar, LOVD, Google Scholar, and other data resources, we have systematically annotated 
+                genetic variants within these genes.
+              </p>
+            </section>
+          </div>
+        </div>
+
+        <!-- Right Column: Contact + User Manual -->
+        <div class="col-md-4" style="margin-top: 60px;">
+          <!-- Contact Us Box -->
+          <a href="contact.html" style="text-decoration: none;">
+            <button type="button" class="btn btn-danger btn-round" style="box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); border-radius: 50px; width: 100%;">
+              <i class="fa fa-envelope mr-2"></i> Contact Us
+            </button>
+          </a>
+          <br><br>
+          <!-- User Manual Box -->
+          <a href="assets/uploads/USER MANUAL_PFIC.pdf" target="_blank" class="btn btn-success btn-round" style="box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); border-radius: 50px; width: 100%;">
+            <i class="fa fa-book mr-2"></i> User Manual
+          </a>
+          <br><br>
+          <!-- Maintained Info -->
+          <p style="font-size: 14px; color: #555; text-align: center; line-height: 1.4; margin-top: 15px;">
+            Maintained at the CSIR Institute of Genomics &amp; Integrative Biology (CSIR-IGIB)<br>
+            <small>Last updated 25/09/2025</small>
+          </p>
+        </div>
+      </div>
+
+      <!-- Graphical Abstract + ACMG Classification -->
+      <div class="container mt-3">
+        <div class="row g-0 align-items-center">
+          <!-- Graphical Abstract -->
+          <div class="col-md-6 d-flex flex-column align-items-center">
+            <div class="card w-100" style="box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
+              <div class="card-header bg-info text-white font-weight-bold">Graphical Abstract</div>
+              <div class="card-body d-flex justify-content-center">
+                <img src="assets/images/ALG CDG (1).png" alt="Graphical Abstract" class="img-fluid" style="max-width: 90%; height: auto;" />
+              </div>
+            </div>
+          </div>
+
+          <!-- ACMG Classification -->
+          <div class="col-md-6 mb-5">
+            <div class="card text-center" style="box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); margin-bottom: 30px; margin-top: -75px;">
+              <div class="card-header bg-info text-white font-weight-bold">ACMG Classification</div>
+              <div class="card-body d-flex justify-content-center">
+                <img src="assets/images/3_pie_chart.png" alt="ACMG Classification" class="img-fluid" style="max-width: 90%; height: auto;" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Functional Classification of Variants -->
+        <div class="row g-0 align-items-center">
+          <div class="col-md-12 mb-5">
+            <div class="card text-center" style="box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); margin-bottom: 105px; width: 550px; margin-left: 550px; margin-top: -120px;">
+              <div class="card-header bg-info text-white font-weight-bold">Functional Classification of Variants</div>
+              <div class="card-body d-flex justify-content-center">
+                <img src="assets/images/3_pie_chart.png" alt="Functional Classification" class="img-fluid" style="max-width: 90%; height: auto;" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer INSIDE wrapper -->
+    <footer class="text-center text-white" 
+            style="background: linear-gradient(90deg, #3B4371, #F3904F); padding: 0.7rem 0; font-size: 14px;">
+      <p class="mb-0 container">
+        <a href="https://www.igib.res.in/" target="_blank" class="footerLink">CSIR-Institute of Genomics and Integrative Biology</a> |
+        <a href="https://sites.google.com/igib.in/bklab-igib/home/" target="_blank" class="footerLink">BK Lab</a>
+      </p>
+    </footer>
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>

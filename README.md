@@ -1,16 +1,24 @@
 ### 🧬 Databases & Web Tools
 
-This section contains web-based **biological databases and interactive tools** developed to organize and explore variant and gene-level information.
+This section includes three interactive genomic databases — **speciPFIC**, **ALGVar**, and **HLCSdb** — developed for structured variant storage and biological data exploration.
 
 #### 🧩 **Repositories**
-- [**speciPFIC**](https://github.com/swalih-kt/speciPFIC) – Database designed for gene-specific pathogenic and functional variant curation.  
-- [**ALGVar**](https://github.com/swalih-kt/ALGVar) – Repository for Alzheimer’s and related gene variants with functional insights.  
+- [**speciPFIC**](https://github.com/swalih-kt/speciPFIC) – Gene-specific pathogenic and functional variant database.  
+- [**ALGVar**](https://github.com/swalih-kt/ALGVar) – Repository for Alzheimer’s-associated genetic variants with functional annotations.  
 - [**HLCSdb**](https://github.com/swalih-kt/HLCSdb) – Curated database for Holocarboxylase Synthetase (HLCS) variants and gene annotations.  
 
 #### ⚙️ **Tech Stack**
-- **Frontend:** HTML, CSS, Bootstrap (responsive UI)  
+- **Frontend:** HTML, CSS, Bootstrap (responsive user interface)  
 - **Backend:** PHP  
 - **Database:** MySQL  
-- **Client-side scripting:** JavaScript (for data handling and dynamic query execution)  
+- **Client-side scripting:** JavaScript (for data queries and visualization)  
+- **Web Server:** Apache on Ubuntu 20.04 (VM-based deployment)
 
-Each database integrates structured variant data with an easy-to-navigate web interface, allowing researchers to query, filter, and visualize clinically relevant genomic information efficiently.
+#### 🖥️ **Deployment Environment**
+Each database is deployed on a **virtual machine (VM)** configured with:
+- 4 vCPUs, 16 GB RAM, 300 GB SSD  
+- Ubuntu 20.04 LTS, Apache Web Server  
+- SSH access enabled for maintenance  
+- Hosted within the institutional intranet (e.g., `algvar.igib.res.in`)  
+
+These databases are optimized for efficient querying, variant visualization, and scalable integration with future omics resources.
